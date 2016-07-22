@@ -1,7 +1,22 @@
+mariadb-10.0 (10.0.26-0ubuntu0.15.10.1) wily-security; urgency=low
+
+  * SECURITY UPDATE: New upstream release 10.0.26. Includes fixes for the
+    following security vulnerabilities (LP: #1605493):
+    - CVE-2016-5440
+    - CVE-2016-3615
+    - CVE-2016-3521
+    - CVE-2016-3477
+  * Update old changelog entries to include new CVE identifiers
+
+ -- Otto Kekäläinen <otto@debian.org>  Sat, 23 Jul 2016 02:18:50 +0300
+
 mariadb-10.0 (10.0.25-0ubuntu0.15.10.1) wily-security; urgency=low
 
   * SECURITY UPDATE: New upstream release 10.0.25. Includes fixes for the
     following security vulnerabilities (LP: #1589302):
+    - CVE-2016-5444
+    - CVE-2016-3459
+    - CVE-2016-3452
     - CVE-2016-0666
     - CVE-2016-0655
     - CVE-2016-0648
@@ -61,6 +76,7 @@ mariadb-10.0 (10.0.22-0ubuntu0.15.10.1) wily-security; urgency=low
     - CVE-2015-4913
     - CVE-2015-4792
   * Includes security issues fixed in 10.0.21:
+    - CVE-2016-3471
     - CVE-2015-4816
     - CVE-2015-4819
     - CVE-2015-4879
